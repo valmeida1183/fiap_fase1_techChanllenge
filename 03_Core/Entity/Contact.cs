@@ -7,5 +7,5 @@ public class Contact : EntityBase
     public required string Phone { get; set; }
     public required string Email { get; set; }
 
-    public virtual required Ddd Ddd { get; set; }
+    public virtual required DirectDistanceDialing Ddd { get; set; }
 }

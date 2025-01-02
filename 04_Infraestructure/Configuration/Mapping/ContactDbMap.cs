@@ -10,10 +10,11 @@ public class ContactDbMap : IEntityTypeConfiguration<Contact>
         builder.ToTable("Contact");
 
         builder.HasKey(c => c.Id);
-        builder.Property(c => c.Id)
-            .IsRequired()
-            .HasColumnType("UNIQUEIDENTIFIER");
 
+        builder.Property(c => c.Id)
+               .ValueGeneratedOnAdd()
+               .UseIdentityColumn();
+                
         builder.Property(c => c.CreatedOn)
             .IsRequired()
             .HasColumnType("DATETIME");
@@ -25,5 +26,9 @@ public class ContactDbMap : IEntityTypeConfiguration<Contact>
         builder.Property(c => c.Email)
             .IsRequired()
             .HasMaxLength(255);
+        
+        builder.HasOne(c => c.Ddd)
+            .WithMany(d => d.Contacts)
+            .HasConstraintName("FK_Contact_DirectDistanceDialing");
     }
 }
