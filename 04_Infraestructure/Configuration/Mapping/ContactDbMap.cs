@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Persistence.Configuration.Mapping;
+namespace Infraestructure.Configuration.Mapping;
 public class ContactDbMap : IEntityTypeConfiguration<Contact>
 {
     public void Configure(EntityTypeBuilder<Contact> builder)
@@ -17,7 +17,8 @@ public class ContactDbMap : IEntityTypeConfiguration<Contact>
                 
         builder.Property(c => c.CreatedOn)
             .IsRequired()
-            .HasColumnType("DATETIME");
+            .HasColumnType("DATETIME2")
+            .HasDefaultValue(DateTime.Now.ToUniversalTime());
 
         builder.Property(c => c.Name)
             .IsRequired()

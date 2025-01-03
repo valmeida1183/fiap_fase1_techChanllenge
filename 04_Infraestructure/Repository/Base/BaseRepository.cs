@@ -1,9 +1,9 @@
 ﻿using Core.Entity.Base;
 using Core.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
-using Persistence.Configuration;
+using Infraestructure.Configuration;
 
-namespace Persistence.Repository.Base;
+namespace Infraestructure.Repository.Base;
 public class BaseRepository<T> : IRepository<T> where T : EntityBase
 {
     protected DataContext _context;

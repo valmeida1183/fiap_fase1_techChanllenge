@@ -2,14 +2,14 @@
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 
-namespace Persistence.Configuration;
+namespace Infraestructure.Configuration;
 public class DesignTimeDataContextFactory : IDesignTimeDbContextFactory<DataContext>
 {
     public DataContext CreateDbContext(string[] args)
     {
         // Load the configuration from WebApi
         var configuration = new ConfigurationBuilder()
-            .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+            .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../01_WebApi"))
             .AddJsonFile("appsettings.json")
             .Build();
 

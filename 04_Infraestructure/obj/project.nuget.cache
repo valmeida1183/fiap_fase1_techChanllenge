@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EWdGt7v1IKo=",
+  "dgSpecHash": "Xps/B7Psn54=",
   "success": true,
-  "projectFilePath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Persistence.csproj",
+  "projectFilePath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vinicius\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Vinicius\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

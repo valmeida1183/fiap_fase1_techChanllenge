@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Persistence.Configuration.Seed;
+using Infraestructure.Configuration.Seed;
 
-namespace Persistence.Configuration.Extension;
+namespace Infraestructure.Configuration.Extension;
 public static class ModelBuilderExtension
 {
     public static void Seed(this ModelBuilder modelBuilder)

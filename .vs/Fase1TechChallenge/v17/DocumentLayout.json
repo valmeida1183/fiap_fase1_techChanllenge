@@ -3,72 +3,112 @@
   "WorkspaceRootPath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\mapping\\contactdbmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|solutionrelative:04_infraestructure\\configuration\\mapping\\contactdbmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103030036_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:04_Infraestructure\\Migrations\\20250103030036_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|solutionrelative:04_infraestructure\\configuration\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\mapping\\directdistancedialingdbmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|solutionrelative:04_infraestructure\\configuration\\mapping\\directdistancedialingdbmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\designtimedatacontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|solutionrelative:04_infraestructure\\configuration\\designtimedatacontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\mapping\\contactdbmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|solutionrelative:04_infraestructure\\configuration\\mapping\\contactdbmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\extension\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|solutionrelative:04_infraestructure\\configuration\\extension\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103025702_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:04_Infraestructure\\Migrations\\20250103025702_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\application\\02_application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|solutionrelative:application\\02_application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103025404_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:04_Infraestructure\\Migrations\\20250103025404_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|solutionrelative:04_infraestructure\\repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\seed\\directdistancedialingseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|solutionrelative:04_infraestructure\\configuration\\seed\\directdistancedialingseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103024432_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:04_Infraestructure\\Migrations\\20250103024432_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\designtimedatacontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|solutionrelative:04_infraestructure\\configuration\\designtimedatacontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103024039_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:04_Infraestructure\\Migrations\\20250103024039_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\03_core\\entity\\directdistancedialing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|solutionrelative:03_core\\entity\\directdistancedialing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\03_core\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|solutionrelative:03_core\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\03_core\\entity\\base\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|solutionrelative:03_core\\entity\\base\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\03_core\\03_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|solutionrelative:03_core\\03_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103023050_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:04_Infraestructure\\Migrations\\20250103023050_FirstMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|solutionrelative:04_infraestructure\\configuration\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|solutionrelative:04_infraestructure\\repository\\base\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\extensions\\webapiconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\extensions\\webapiconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\01_webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\01_webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\01_webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\01_webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\application\\02_application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|solutionrelative:application\\02_application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\04_infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|solutionrelative:04_infraestructure\\04_infraestructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\seed\\directdistancedialingseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|solutionrelative:04_infraestructure\\configuration\\seed\\directdistancedialingseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\01_webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\01_webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\mapping\\directdistancedialingdbmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|solutionrelative:04_infraestructure\\configuration\\mapping\\directdistancedialingdbmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\03_core\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|solutionrelative:03_core\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\03_core\\03_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|solutionrelative:03_core\\03_core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\03_core\\entity\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42830A63-6EAA-44C2-9039-590EAC35C8D9}|03_Core\\03_Core.csproj|solutionrelative:03_core\\entity\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\04_persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Persistence.csproj|solutionrelative:04_infraestructure\\04_persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\01_webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\01_webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\04_infraestructure\\configuration\\extension\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CF91136-5C2D-460A-A213-6EEDD2307FA5}|04_Infraestructure\\04_Infraestructure.csproj|solutionrelative:04_infraestructure\\configuration\\extension\\modelbuilderextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,101 +118,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Repository\\Interface\\IRepository.cs",
-              "RelativeDocumentMoniker": "03_Core\\Repository\\Interface\\IRepository.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Repository\\Interface\\IRepository.cs",
-              "RelativeToolTip": "03_Core\\Repository\\Interface\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "20250103030036_FirstMigration.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103030036_FirstMigration.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Migrations\\20250103030036_FirstMigration.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103030036_FirstMigration.cs",
+              "RelativeToolTip": "04_Infraestructure\\Migrations\\20250103030036_FirstMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T00:20:01.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Repository\\Base\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "04_Infraestructure\\Repository\\Base\\BaseRepository.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Repository\\Base\\BaseRepository.cs",
-              "RelativeToolTip": "04_Infraestructure\\Repository\\Base\\BaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T00:17:11.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DirectDistanceDialing.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\DirectDistanceDialing.cs",
-              "RelativeDocumentMoniker": "03_Core\\Entity\\DirectDistanceDialing.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\DirectDistanceDialing.cs",
-              "RelativeToolTip": "03_Core\\Entity\\DirectDistanceDialing.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T18:44:11.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\DataContext.cs",
-              "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\DataContext.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\DataContext.cs",
-              "RelativeToolTip": "04_Infraestructure\\Configuration\\DataContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAxwBYAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T19:21:29.093Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "02_Application.csproj",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\02_Application.csproj",
-              "RelativeDocumentMoniker": "Application\\02_Application.csproj",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\02_Application.csproj",
-              "RelativeToolTip": "Application\\02_Application.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-29T16:22:25.759Z"
+              "WhenOpened": "2025-01-03T03:00:36.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ModelBuilderExtension.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Extension\\ModelBuilderExtension.cs",
-              "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\Extension\\ModelBuilderExtension.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Extension\\ModelBuilderExtension.cs",
-              "RelativeToolTip": "04_Infraestructure\\Configuration\\Extension\\ModelBuilderExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Title": "20250103025702_FirstMigration.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103025702_FirstMigration.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Migrations\\20250103025702_FirstMigration.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103025702_FirstMigration.cs",
+              "RelativeToolTip": "04_Infraestructure\\Migrations\\20250103025702_FirstMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T20:45:25.48Z"
+              "WhenOpened": "2025-01-03T02:57:02.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250103025404_FirstMigration.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103025404_FirstMigration.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Migrations\\20250103025404_FirstMigration.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103025404_FirstMigration.cs",
+              "RelativeToolTip": "04_Infraestructure\\Migrations\\20250103025404_FirstMigration.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T02:54:04.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250103024432_FirstMigration.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103024432_FirstMigration.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Migrations\\20250103024432_FirstMigration.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103024432_FirstMigration.cs",
+              "RelativeToolTip": "04_Infraestructure\\Migrations\\20250103024432_FirstMigration.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwEAAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T02:44:32.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DirectDistanceDialingSeed.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Seed\\DirectDistanceDialingSeed.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\Seed\\DirectDistanceDialingSeed.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Seed\\DirectDistanceDialingSeed.cs",
+              "RelativeToolTip": "04_Infraestructure\\Configuration\\Seed\\DirectDistanceDialingSeed.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBIAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:47:47.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DirectDistanceDialingDbMap.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Mapping\\DirectDistanceDialingDbMap.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\Mapping\\DirectDistanceDialingDbMap.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Mapping\\DirectDistanceDialingDbMap.cs",
+              "RelativeToolTip": "04_Infraestructure\\Configuration\\Mapping\\DirectDistanceDialingDbMap.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T21:30:53.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DesignTimeDataContextFactory.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\DesignTimeDataContextFactory.cs",
-              "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\DesignTimeDataContextFactory.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\DesignTimeDataContextFactory.cs",
-              "RelativeToolTip": "04_Infraestructure\\Configuration\\DesignTimeDataContextFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T20:11:18.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ContactDbMap.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Mapping\\ContactDbMap.cs",
               "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\Mapping\\ContactDbMap.cs",
               "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Mapping\\ContactDbMap.cs",
               "RelativeToolTip": "04_Infraestructure\\Configuration\\Mapping\\ContactDbMap.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBsAAAAfAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T21:29:42.697Z",
               "EditorCaption": ""
@@ -180,66 +214,186 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "20250103024039_FirstMigration.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103024039_FirstMigration.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Migrations\\20250103024039_FirstMigration.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103024039_FirstMigration.cs",
+              "RelativeToolTip": "04_Infraestructure\\Migrations\\20250103024039_FirstMigration.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAQwDwAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T02:40:39.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250103023050_FirstMigration.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103023050_FirstMigration.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Migrations\\20250103023050_FirstMigration.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Migrations\\20250103023050_FirstMigration.cs",
+              "RelativeToolTip": "04_Infraestructure\\Migrations\\20250103023050_FirstMigration.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T02:30:50.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DirectDistanceDialing.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\DirectDistanceDialing.cs",
+              "RelativeDocumentMoniker": "03_Core\\Entity\\DirectDistanceDialing.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\DirectDistanceDialing.cs",
+              "RelativeToolTip": "03_Core\\Entity\\DirectDistanceDialing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:44:11.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DesignTimeDataContextFactory.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\DesignTimeDataContextFactory.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\DesignTimeDataContextFactory.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\DesignTimeDataContextFactory.cs",
+              "RelativeToolTip": "04_Infraestructure\\Configuration\\DesignTimeDataContextFactory.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T20:11:18.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\DataContext.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\DataContext.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\DataContext.cs",
+              "RelativeToolTip": "04_Infraestructure\\Configuration\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:21:29.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "EntityBase.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\Base\\EntityBase.cs",
               "RelativeDocumentMoniker": "03_Core\\Entity\\Base\\EntityBase.cs",
               "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\Base\\EntityBase.cs",
               "RelativeToolTip": "03_Core\\Entity\\Base\\EntityBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T18:46:05.706Z"
+              "WhenOpened": "2024-12-29T18:46:05.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\Contact.cs",
-              "RelativeDocumentMoniker": "03_Core\\Entity\\Contact.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\Contact.cs",
-              "RelativeToolTip": "03_Core\\Entity\\Contact.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Repository\\Base\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Repository\\Base\\BaseRepository.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Repository\\Base\\BaseRepository.cs",
+              "RelativeToolTip": "04_Infraestructure\\Repository\\Base\\BaseRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T18:43:14.027Z"
+              "WhenOpened": "2025-01-02T00:17:11.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DirectDistanceDialingDbMap.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Mapping\\DirectDistanceDialingDbMap.cs",
-              "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\Mapping\\DirectDistanceDialingDbMap.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Mapping\\DirectDistanceDialingDbMap.cs",
-              "RelativeToolTip": "04_Infraestructure\\Configuration\\Mapping\\DirectDistanceDialingDbMap.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "01_WebApi\\Program.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\Program.cs",
+              "RelativeToolTip": "01_WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T21:30:53.815Z"
+              "WhenOpened": "2025-01-03T01:41:12.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DirectDistanceDialingSeed.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Seed\\DirectDistanceDialingSeed.cs",
-              "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\Seed\\DirectDistanceDialingSeed.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Seed\\DirectDistanceDialingSeed.cs",
-              "RelativeToolTip": "04_Infraestructure\\Configuration\\Seed\\DirectDistanceDialingSeed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAAKAAAA",
+              "DocumentIndex": 15,
+              "Title": "WebApiConfigurationExtension.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
+              "RelativeDocumentMoniker": "01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
+              "RelativeToolTip": "01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T20:47:47.904Z"
+              "WhenOpened": "2025-01-03T01:14:28.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "03_Core.csproj",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\03_Core.csproj",
-              "RelativeDocumentMoniker": "03_Core\\03_Core.csproj",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\03_Core.csproj",
-              "RelativeToolTip": "03_Core\\03_Core.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "DocumentIndex": 16,
+              "Title": "01_WebApi",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.csproj",
+              "RelativeDocumentMoniker": "01_WebApi\\01_WebApi.csproj",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.csproj",
+              "RelativeToolTip": "01_WebApi\\01_WebApi.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-29T18:09:32.12Z"
+              "WhenOpened": "2025-01-03T01:45:13.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
+              "Title": "01_WebApi.csproj",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.csproj",
+              "RelativeDocumentMoniker": "01_WebApi\\01_WebApi.csproj",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.csproj",
+              "RelativeToolTip": "01_WebApi\\01_WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-29T18:26:33.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "02_Application.csproj",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\02_Application.csproj",
+              "RelativeDocumentMoniker": "Application\\02_Application.csproj",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\02_Application.csproj",
+              "RelativeToolTip": "Application\\02_Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-29T16:22:25.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ModelBuilderExtension.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Extension\\ModelBuilderExtension.cs",
+              "RelativeDocumentMoniker": "04_Infraestructure\\Configuration\\Extension\\ModelBuilderExtension.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Configuration\\Extension\\ModelBuilderExtension.cs",
+              "RelativeToolTip": "04_Infraestructure\\Configuration\\Extension\\ModelBuilderExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T20:45:25.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "04_Infraestructure.csproj",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Infraestructure.csproj",
+              "RelativeDocumentMoniker": "04_Infraestructure\\04_Infraestructure.csproj",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Infraestructure.csproj",
+              "RelativeToolTip": "04_Infraestructure\\04_Infraestructure.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-29T18:04:59.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "01_WebApi\\appsettings.json",
@@ -251,19 +405,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "04_Persistence.csproj",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Persistence.csproj",
-              "RelativeDocumentMoniker": "04_Infraestructure\\04_Persistence.csproj",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Persistence.csproj",
-              "RelativeToolTip": "04_Infraestructure\\04_Persistence.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-29T18:04:59.997Z"
+              "DocumentIndex": 21,
+              "Title": "01_WebApi.http",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.http",
+              "RelativeDocumentMoniker": "01_WebApi\\01_WebApi.http",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.http",
+              "RelativeToolTip": "01_WebApi\\01_WebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-03T01:14:54.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Repository\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "03_Core\\Repository\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Repository\\Interface\\IRepository.cs",
+              "RelativeToolTip": "03_Core\\Repository\\Interface\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T00:20:01.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\Contact.cs",
+              "RelativeDocumentMoniker": "03_Core\\Entity\\Contact.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\Contact.cs",
+              "RelativeToolTip": "03_Core\\Entity\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:43:14.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "03_Core.csproj",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\03_Core.csproj",
+              "RelativeDocumentMoniker": "03_Core\\03_Core.csproj",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\03_Core.csproj",
+              "RelativeToolTip": "03_Core\\03_Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-29T18:09:32.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\appsettings.Development.json",
               "RelativeDocumentMoniker": "01_WebApi\\appsettings.Development.json",
@@ -272,18 +463,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-29T20:14:08.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "01_WebApi.csproj",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.csproj",
-              "RelativeDocumentMoniker": "01_WebApi\\01_WebApi.csproj",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.csproj",
-              "RelativeToolTip": "01_WebApi\\01_WebApi.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-29T18:26:33.307Z"
             }
           ]
         }

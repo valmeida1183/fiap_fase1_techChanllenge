@@ -4330,9 +4330,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Persistence.csproj",
-      "projectName": "04_Persistence",
-      "projectPath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Persistence.csproj",
+      "projectUniqueName": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Infraestructure.csproj",
+      "projectName": "04_Infraestructure",
+      "projectPath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Infraestructure.csproj",
       "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
       "outputPath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\obj\\",
       "projectStyle": "PackageReference",

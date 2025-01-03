@@ -1,9 +1,8 @@
 ﻿using Core.Entity;
+using Infraestructure.Configuration.Extension;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using Persistence.Configuration.Extension;
 
-namespace Persistence.Configuration;
+namespace Infraestructure.Configuration;
 public class DataContext : DbContext
 {
     private readonly string? _connectionString;
