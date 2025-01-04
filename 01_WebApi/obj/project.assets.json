@@ -1194,6 +1194,19 @@
           }
         }
       },
+      "02_Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "04_Infraestructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/02_Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/02_Application.dll": {}
+        }
+      },
       "03_Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -3451,6 +3464,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "02_Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/02_Application.csproj",
+      "msbuildProject": "../Application/02_Application.csproj"
+    },
     "03_Core/1.0.0": {
       "type": "project",
       "path": "../03_Core/03_Core.csproj",
@@ -3464,6 +3482,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "02_Application >= 1.0.0",
       "04_Infraestructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -3498,6 +3517,9 @@
           "projectReferences": {
             "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Infraestructure.csproj": {
               "projectPath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Infraestructure.csproj"
+            },
+            "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\02_Application.csproj": {
+              "projectPath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\02_Application.csproj"
             }
           }
         }

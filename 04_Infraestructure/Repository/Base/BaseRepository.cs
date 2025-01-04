@@ -14,39 +14,43 @@ public class BaseRepository<T> : IRepository<T> where T : EntityBase
         _context = dataContext;
         _dbSet = _context.Set<T>();
     }
+    public async Task<IList<T>> GetAllAsync()
+    {
+        return await _dbSet
+            .AsNoTracking()
+            .ToListAsync();
+    }
 
-    public void Create(T entity)
+    public async Task<T?> GetByIdAsync(int id)
+    {
+        return await _dbSet
+            .AsNoTracking()
+            .FirstOrDefaultAsync(x => x.Id == id);
+    }
+
+    public async Task CreateAsync(T entity)
     {
         entity.CreatedOn = DateTime.UtcNow;
 
-        _dbSet.Add(entity);
-        _context.SaveChanges();
+        await _dbSet.AddAsync(entity);
+        await _context.SaveChangesAsync();
     }
 
-    public void Delete(int id)
+    public async Task EditAsync(T entity)
     {
-        var entity = _dbSet.FirstOrDefault(x => x.Id == id);
+        _dbSet.Update(entity); // update não tem async
+        await _context.SaveChangesAsync();
+    }
+
+    public async Task DeleteAsync(int id)
+    {
+        var entity = await _dbSet.FirstOrDefaultAsync(x => x.Id == id);
 
         if (entity is null)
             return;
 
-        _dbSet.Remove(entity);
-        _context.SaveChanges();
+        _dbSet.Remove(entity); // remove não tem async
+        await _context.SaveChangesAsync();
     }
 
-    public void Edit(T entity)
-    {
-        _dbSet.Update(entity);
-        _context.SaveChanges();
-    }
-
-    public IList<T> GetAll()
-    {
-        return _dbSet.ToList();
-    }
-
-    public T? GetById(int id)
-    {
-        return _dbSet.FirstOrDefault(x => x.Id == id);
-    }
-}
+ }
