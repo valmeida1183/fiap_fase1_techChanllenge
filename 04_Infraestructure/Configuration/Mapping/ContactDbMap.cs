@@ -24,6 +24,10 @@ public class ContactDbMap : IEntityTypeConfiguration<Contact>
             .IsRequired()
             .HasMaxLength(100);
 
+        builder.Property(c => c.Phone)
+            .IsRequired()
+            .HasMaxLength(20);
+
         builder.Property(c => c.Email)
             .IsRequired()
             .HasMaxLength(255);

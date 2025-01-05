@@ -1,7 +1,7 @@
 ﻿using Core.Entity.Base;
 
 namespace Core.Entity;
-public class DirectDistanceDialing : EntityBase
+public class DirectDistanceDialing : BaseEntity
 {
     public required string Region { get; set; }
 

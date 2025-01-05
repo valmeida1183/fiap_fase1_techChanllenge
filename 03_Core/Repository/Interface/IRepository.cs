@@ -1,7 +1,7 @@
 ﻿using Core.Entity.Base;
 
 namespace Core.Repository.Interface;
-public interface IRepository<T> where T : EntityBase
+public interface IRepository<T> where T : BaseEntity
 {
     Task<IList<T>> GetAllAsync();
     Task<T?> GetByIdAsync(int id);

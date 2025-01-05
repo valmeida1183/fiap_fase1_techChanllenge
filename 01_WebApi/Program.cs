@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.ConfigureControllers();
 builder.ConfigureSwagger();
+builder.ConfigureDbContext();
 builder.ConfigureServices();
 
 var app = builder.Build();

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Infraestructure.Configuration;
 
 namespace Infraestructure.Repository.Base;
-public class BaseRepository<T> : IRepository<T> where T : EntityBase
+public abstract class BaseRepository<T> : IRepository<T> where T : BaseEntity
 {
     protected DataContext _context;
     protected DbSet<T> _dbSet;

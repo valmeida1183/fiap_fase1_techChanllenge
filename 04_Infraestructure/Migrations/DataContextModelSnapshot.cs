@@ -33,7 +33,7 @@ namespace Infraestructure.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("DATETIME2")
-                        .HasDefaultValue(new DateTime(2025, 1, 3, 3, 0, 35, 970, DateTimeKind.Utc).AddTicks(718));
+                        .HasDefaultValue(new DateTime(2025, 1, 5, 0, 39, 47, 181, DateTimeKind.Utc).AddTicks(5519));
 
                     b.Property<int>("DddId")
                         .HasColumnType("int");
@@ -50,7 +50,8 @@ namespace Infraestructure.Migrations
 
                     b.Property<string>("Phone")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
 
                     b.HasKey("Id");
 
@@ -67,7 +68,7 @@ namespace Infraestructure.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("DATETIME2")
-                        .HasDefaultValue(new DateTime(2025, 1, 3, 3, 0, 35, 970, DateTimeKind.Utc).AddTicks(3238));
+                        .HasDefaultValue(new DateTime(2025, 1, 5, 0, 39, 47, 181, DateTimeKind.Utc).AddTicks(7590));
 
                     b.Property<string>("Region")
                         .IsRequired()

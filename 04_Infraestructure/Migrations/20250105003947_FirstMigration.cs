@@ -19,7 +19,7 @@ namespace Infraestructure.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false),
                     Region = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    CreatedOn = table.Column<DateTime>(type: "DATETIME2", nullable: false, defaultValue: new DateTime(2025, 1, 3, 3, 0, 35, 970, DateTimeKind.Utc).AddTicks(3238))
+                    CreatedOn = table.Column<DateTime>(type: "DATETIME2", nullable: false, defaultValue: new DateTime(2025, 1, 5, 0, 39, 47, 181, DateTimeKind.Utc).AddTicks(7590))
                 },
                 constraints: table =>
                 {
@@ -33,10 +33,10 @@ namespace Infraestructure.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Phone = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
                     Email = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     DddId = table.Column<int>(type: "int", nullable: false),
-                    CreatedOn = table.Column<DateTime>(type: "DATETIME2", nullable: false, defaultValue: new DateTime(2025, 1, 3, 3, 0, 35, 970, DateTimeKind.Utc).AddTicks(718))
+                    CreatedOn = table.Column<DateTime>(type: "DATETIME2", nullable: false, defaultValue: new DateTime(2025, 1, 5, 0, 39, 47, 181, DateTimeKind.Utc).AddTicks(5519))
                 },
                 constraints: table =>
                 {
