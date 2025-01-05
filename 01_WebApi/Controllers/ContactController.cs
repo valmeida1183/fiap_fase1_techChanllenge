@@ -58,10 +58,11 @@ public class ContactController : ControllerBase
     {
         try
         {
-            // exemplo do uso de cache
-            var contacts = await _cache.GetOrCreateAsync("ContactsByDDDCodeCache", async entry =>
+            var cacheKey = $"ContactsByDDDCodeCache_{id}";
+            
+            var contacts = await _cache.GetOrCreateAsync(cacheKey, async entry =>
             {
-                entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromHours(1);
+                entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(5);
                 return await _contactService.GetAllByDddAsync(id);
             });
                         
