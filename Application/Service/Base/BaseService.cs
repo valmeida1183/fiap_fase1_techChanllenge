@@ -1,6 +1,7 @@
 ﻿using Application.Service.Interface;
 using Core.Entity.Base;
 using Core.Repository.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Service.Base;
 public abstract class BaseService<T> : IService<T> where T : BaseEntity
@@ -31,8 +32,8 @@ public abstract class BaseService<T> : IService<T> where T : BaseEntity
         await _repository.EditAsync(entity);
     }
 
-    public virtual async Task DeleteAsync(int id)
+    public virtual async Task DeleteAsync(T entity)
     {
-        await _repository.DeleteAsync(id);
+        await _repository.DeleteAsync(entity);
     }
 }

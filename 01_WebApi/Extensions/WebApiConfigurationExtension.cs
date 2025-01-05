@@ -18,12 +18,11 @@ public static class WebApiConfigurationExtension
             .AddControllers()
             .ConfigureApiBehaviorOptions(options =>
             {
-                // Configura para o ModelBindig não validar a model automaticamente, pois o default é validar mas eu quero um retorno personalizado na api
                 options.SuppressModelStateInvalidFilter = true;
             })
             .AddJsonOptions(x =>
             {
-                x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles; // remove o problema das referencias em ciclos
+                x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
             });
     }
 

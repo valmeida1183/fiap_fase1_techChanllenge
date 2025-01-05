@@ -7,5 +7,5 @@ public interface IService<T> where T : BaseEntity
     Task<T?> GetByIdAsync(int id);
     Task CreateAsync(T entity);
     Task EditAsync(T entity);
-    Task DeleteAsync(int id);
+    Task DeleteAsync(T entity);
 }

@@ -19,10 +19,8 @@ public class ContactService : BaseService<Contact>, IContactService
     {
         var ddd = await _directDistanceDialingRepository.GetByIdAsync(dddId);
 
-        if (ddd is null)
-            throw new ArgumentException("Invalid Direct Distance Dialing Id");
-
-        return await _contactRepository.GetAllByDddAsync(dddId);
-
+        return ddd is null
+            ? throw new ArgumentException("Invalid Direct Distance Dialing Id")
+            : await _contactRepository.GetAllByDddAsync(dddId);
     }
 }

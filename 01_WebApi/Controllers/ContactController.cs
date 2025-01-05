@@ -1,9 +1,8 @@
 ﻿using Application.Service.Interface;
 using Application.ViewModel;
 using Core.Entity;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Net;
+using WebApi.Extensions;
 
 namespace WebApi.Controllers;
 [Route("api/v1/contacts")]
@@ -23,6 +22,7 @@ public class ContactController : ControllerBase
         try
         {
             var contacts = await _contactService.GetAllAsync();
+
             return Ok(new ResultViewModel<IList<Contact>>(contacts));
         }
         catch (SystemException)
@@ -47,6 +47,103 @@ public class ContactController : ControllerBase
         catch
         {
             return StatusCode(500, new ResultViewModel<Contact>("01X02- Internal server error"));
+        }
+    }
+
+    [HttpGet("ddd-code/{id:int}")]
+    public async Task<ActionResult<List<Contact>>> GetAllByDddAsync(int id)
+    {
+        try
+        {
+            var contacts = await _contactService.GetAllByDddAsync(id);
+
+            return Ok(new ResultViewModel<IList<Contact>>(contacts));
+        }
+        catch (ArgumentException)
+        {
+            return BadRequest(new ResultViewModel<Contact>("01X03 - Invalid direct distance dialing code"));
+        }
+        catch (Exception)
+        {
+            return StatusCode(500, new ResultViewModel<Contact>("01X04- Internal server error"));
+        }
+    }
+
+    [HttpPost()]
+    public async Task<IActionResult> PostAsync([FromBody] ContactViewModel model)
+    {
+        try
+        {
+            if (!ModelState.IsValid) 
+            {
+                return BadRequest(new ResultViewModel<Contact>(ModelState.GetErrors()));
+            }
+
+            var contact = new Contact
+            {
+                Name = model.Name,
+                Phone = model.Phone,
+                Email = model.Email,
+                DddId = model.DddId,
+            };
+
+            await _contactService.CreateAsync(contact);
+
+            return Created($"api/v1/contacts/{contact.Id}", new ResultViewModel<Contact>(contact));
+        }
+        catch (Exception)
+        {
+            return StatusCode(500, new ResultViewModel<Contact>("01X05 - Internal server error"));
+        }
+    }
+
+    [HttpPut("{id:int}")]
+    public async Task<IActionResult> PutAsync([FromRoute] int id, [FromBody] ContactViewModel model)
+    {
+        try
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new ResultViewModel<Contact>(ModelState.GetErrors()));
+            }
+
+            var contact = await _contactService.GetByIdAsync(id);
+            
+            if (contact is null)
+                return BadRequest(new ResultViewModel<Contact>("01X06 - Invalid contact id"));
+
+            contact.Name = model.Name;
+            contact.Phone = model.Phone;
+            contact.Email = model.Email;
+            contact.DddId = model.DddId;
+
+            await _contactService.EditAsync(contact);
+                        
+            return Ok(new ResultViewModel<Contact>(contact));
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new ResultViewModel<Contact>("01X07 - Internal server error"));
+        }
+    }
+
+    [HttpDelete("{id:int}")]
+    public async Task<IActionResult> DeleteAsync([FromRoute] int id)
+    {
+        try
+        {
+            var contact = await _contactService.GetByIdAsync(id);
+
+            if (contact is null)
+                return BadRequest(new ResultViewModel<Contact>("01X08 - Invalid contact id"));
+
+            await _contactService.DeleteAsync(contact);
+
+            return NoContent();
+        }
+        catch (Exception)
+        {
+            return StatusCode(500, new ResultViewModel<Contact>("01X09 - Internal server error"));
         }
     }
 }

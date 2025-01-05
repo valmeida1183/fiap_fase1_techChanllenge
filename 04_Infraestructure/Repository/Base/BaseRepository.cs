@@ -16,15 +16,13 @@ public abstract class BaseRepository<T> : IRepository<T> where T : BaseEntity
     }
     public async Task<IList<T>> GetAllAsync()
     {
-        return await _dbSet
-            .AsNoTracking()
+        return await _dbSet            
             .ToListAsync();
     }
 
     public async Task<T?> GetByIdAsync(int id)
     {
-        return await _dbSet
-            .AsNoTracking()
+        return await _dbSet            
             .FirstOrDefaultAsync(x => x.Id == id);
     }
 
@@ -42,15 +40,9 @@ public abstract class BaseRepository<T> : IRepository<T> where T : BaseEntity
         await _context.SaveChangesAsync();
     }
 
-    public async Task DeleteAsync(int id)
+    public async Task DeleteAsync(T entity)
     {
-        var entity = await _dbSet.FirstOrDefaultAsync(x => x.Id == id);
-
-        if (entity is null)
-            return;
-
         _dbSet.Remove(entity); // remove não tem async
         await _context.SaveChangesAsync();
     }
-
- }
+}
