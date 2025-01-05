@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\application\\viewmodel\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|solutionrelative:application\\viewmodel\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\extensions\\webapiconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\extensions\\webapiconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\application\\service\\interface\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|solutionrelative:application\\service\\interface\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\application\\viewmodel\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|solutionrelative:application\\viewmodel\\contactviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\application\\viewmodel\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{293D8377-1343-4071-9746-E06C7FF821F0}|Application\\02_Application.csproj|solutionrelative:application\\viewmodel\\resultviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\01_webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -57,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\extensions\\modelstateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\extensions\\modelstateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\extensions\\webapiconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|solutionrelative:01_webapi\\extensions\\webapiconfigurationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84E8B93E-AF72-406E-8F74-FE9B28380645}|01_WebApi\\01_WebApi.csproj|c:\\ti\\pos graduacao\\fiap\\fase 1\\tech challange\\fase1techchallenge\\01_webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -184,7 +184,7 @@
               "RelativeDocumentMoniker": "01_WebApi\\Controllers\\ContactController.cs",
               "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\Controllers\\ContactController.cs",
               "RelativeToolTip": "01_WebApi\\Controllers\\ContactController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAUwDgAAAAJAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwEMAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T00:08:39.467Z",
               "IsPinned": true,
@@ -192,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ContactService.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\Service\\ContactService.cs",
               "RelativeDocumentMoniker": "Application\\Service\\ContactService.cs",
@@ -206,33 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IService.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\Service\\Interface\\IService.cs",
-              "RelativeDocumentMoniker": "Application\\Service\\Interface\\IService.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\Service\\Interface\\IService.cs",
-              "RelativeToolTip": "Application\\Service\\Interface\\IService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T00:56:00.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "01_WebApi.csproj",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.csproj",
-              "RelativeDocumentMoniker": "01_WebApi\\01_WebApi.csproj",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.csproj",
-              "RelativeToolTip": "01_WebApi\\01_WebApi.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-29T18:26:33.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "02_Application.csproj",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\02_Application.csproj",
               "RelativeDocumentMoniker": "Application\\02_Application.csproj",
@@ -245,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ContactViewModel.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\ViewModel\\ContactViewModel.cs",
               "RelativeDocumentMoniker": "Application\\ViewModel\\ContactViewModel.cs",
@@ -258,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "BaseService.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\Service\\Base\\BaseService.cs",
               "RelativeDocumentMoniker": "Application\\Service\\Base\\BaseService.cs",
@@ -271,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Repository\\Base\\BaseRepository.cs",
               "RelativeDocumentMoniker": "04_Infraestructure\\Repository\\Base\\BaseRepository.cs",
@@ -284,20 +258,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "ResultViewModel.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\ViewModel\\ResultViewModel.cs",
               "RelativeDocumentMoniker": "Application\\ViewModel\\ResultViewModel.cs",
               "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\ViewModel\\ResultViewModel.cs",
               "RelativeToolTip": "Application\\ViewModel\\ResultViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T00:06:34.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "WebApiConfigurationExtension.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
+              "RelativeDocumentMoniker": "01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
+              "RelativeToolTip": "01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T01:14:28.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "01_WebApi.csproj",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.csproj",
+              "RelativeDocumentMoniker": "01_WebApi\\01_WebApi.csproj",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\01_WebApi.csproj",
+              "RelativeToolTip": "01_WebApi\\01_WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-29T18:26:33.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\Service\\Interface\\IService.cs",
+              "RelativeDocumentMoniker": "Application\\Service\\Interface\\IService.cs",
+              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\Service\\Interface\\IService.cs",
+              "RelativeToolTip": "Application\\Service\\Interface\\IService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T00:56:00.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Repository\\Interface\\IRepository.cs",
               "RelativeDocumentMoniker": "03_Core\\Repository\\Interface\\IRepository.cs",
@@ -310,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\Repository\\ContactRepository.cs",
               "RelativeDocumentMoniker": "04_Infraestructure\\Repository\\ContactRepository.cs",
@@ -323,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "DirectDistanceDialingService.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\Service\\DirectDistanceDialingService.cs",
               "RelativeDocumentMoniker": "Application\\Service\\DirectDistanceDialingService.cs",
@@ -336,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\03_Core\\Entity\\Contact.cs",
               "RelativeDocumentMoniker": "03_Core\\Entity\\Contact.cs",
@@ -349,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ModelStateExtension.cs",
               "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\Extensions\\ModelStateExtension.cs",
               "RelativeDocumentMoniker": "01_WebApi\\Extensions\\ModelStateExtension.cs",
@@ -384,19 +397,6 @@
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwB8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T21:29:42.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "WebApiConfigurationExtension.cs",
-              "DocumentMoniker": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
-              "RelativeDocumentMoniker": "01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
-              "ToolTip": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
-              "RelativeToolTip": "01_WebApi\\Extensions\\WebApiConfigurationExtension.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAABgAAABZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-03T01:14:28.006Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

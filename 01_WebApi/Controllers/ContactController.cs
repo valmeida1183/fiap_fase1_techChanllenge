@@ -2,6 +2,7 @@
 using Application.ViewModel;
 using Core.Entity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using WebApi.Extensions;
 
 namespace WebApi.Controllers;
@@ -10,10 +11,12 @@ namespace WebApi.Controllers;
 public class ContactController : ControllerBase
 {
     private readonly IContactService _contactService;
+    private readonly IMemoryCache _cache;
 
-    public ContactController(IContactService contactService)
+    public ContactController(IContactService contactService, IMemoryCache cache)
     {
         _contactService = contactService;
+        _cache = cache;
     }
 
     [HttpGet]
@@ -55,8 +58,13 @@ public class ContactController : ControllerBase
     {
         try
         {
-            var contacts = await _contactService.GetAllByDddAsync(id);
-
+            // exemplo do uso de cache
+            var contacts = await _cache.GetOrCreateAsync("ContactsByDDDCodeCache", async entry =>
+            {
+                entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromHours(1);
+                return await _contactService.GetAllByDddAsync(id);
+            });
+                        
             return Ok(new ResultViewModel<IList<Contact>>(contacts));
         }
         catch (ArgumentException)

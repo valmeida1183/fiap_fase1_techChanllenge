@@ -8,7 +8,7 @@ public class ResultViewModel<T>
         Errors = errors;
     }
 
-    public ResultViewModel(T data) => Data = data;
+    public ResultViewModel(T? data) => Data = data;
         
     public ResultViewModel(List<string> errors) => Errors = errors;
 
