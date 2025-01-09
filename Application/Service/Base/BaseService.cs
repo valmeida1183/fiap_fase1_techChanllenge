@@ -1,7 +1,6 @@
 ﻿using Application.Service.Interface;
 using Core.Entity.Base;
 using Core.Repository.Interface;
-using Microsoft.EntityFrameworkCore;
 
 namespace Application.Service.Base;
 public abstract class BaseService<T> : IService<T> where T : BaseEntity
