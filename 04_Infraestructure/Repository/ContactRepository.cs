@@ -16,7 +16,7 @@ public class ContactRepository : BaseRepository<Contact>, IContactRepository
         var contacts = await _dbSet
                     .AsNoTracking()
                     .Include(x => x.Ddd)
-                    .Where(x => x.Ddd.Id == dddId)
+                    .Where(x => x.Ddd != null && x.Ddd.Id == dddId)
                     .ToListAsync();
 
         return contacts;

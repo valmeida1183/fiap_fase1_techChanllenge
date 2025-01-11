@@ -130,7 +130,7 @@ public class ContactController : ControllerBase
                         
             return Ok(new ResultViewModel<Contact>(contact));
         }
-        catch (Exception ex)
+        catch (Exception)
         {
             return StatusCode(500, new ResultViewModel<Contact>("01X07 - Internal server error"));
         }
