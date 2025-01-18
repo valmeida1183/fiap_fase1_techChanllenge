@@ -106,13 +106,7 @@ Contact creation/update requires:
 - Email: Valid email format
 - DddId: Valid Brazilian DDD code (11-99)
 
-## Testing
 
-Run the unit tests:
-
-```bash
-dotnet test
-```
 
 ## Error Handling
 
@@ -125,11 +119,15 @@ The API uses a standardized error response format:
 }
 ```
 
+## Testing
+
+Run the unit tests:
+
+```bash
+dotnet test
+```
+
 ## License
 
 This project is licensed under the MIT License.
 
-### Running the unit tests
-```bash
-dotnet test
-```
