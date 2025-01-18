@@ -4,6 +4,9 @@
 
 A .NET Core Web API project that provides endpoints to manage contacts with Brazilian DDD (Direct Distance Dialing) codes.
 
+## Preentation Video
+[Presentation Video](https://youtu.be/JlzNH6JLJXY)
+
 ## Technologies Used
 
 - .NET 8.0
@@ -130,4 +133,3 @@ dotnet test
 ## License
 
 This project is licensed under the MIT License.
-
