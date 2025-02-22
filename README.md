@@ -5,6 +5,7 @@
 A .NET Core Web API project that provides endpoints to manage contacts with Brazilian DDD (Direct Distance Dialing) codes.
 
 ## Preentation Video
+
 [Presentation Video](https://youtu.be/JlzNH6JLJXY)
 
 ## Technologies Used
@@ -39,6 +40,7 @@ The solution follows a clean architecture pattern with the following projects:
 ## Database Schema
 
 ### Contact Table
+
 - Id (Primary Key)
 - Name (varchar(100))
 - Phone (varchar(20))
@@ -47,6 +49,7 @@ The solution follows a clean architecture pattern with the following projects:
 - CreatedOn (DateTime2)
 
 ### DirectDistanceDialing Table
+
 - Id (Primary Key)
 - Region (varchar(50))
 - CreatedOn (DateTime2)
@@ -62,6 +65,7 @@ The solution follows a clean architecture pattern with the following projects:
 ### Configuration
 
 1. Update the connection string in `appsettings.json`:
+
 ```json
 "ConnectionStrings": {
 "DefaultConnection": "Server=YOUR_SERVER; Database=Fase1TechChallenge; Persist Security Info=False; Trusted_Connection=True; TrustServerCertificate=True"
@@ -69,6 +73,7 @@ The solution follows a clean architecture pattern with the following projects:
 ```
 
 2. Run the Entity Framework migrations:
+
 ```bash
 Update-Database -Project 04_Infraestructure -StartupProject 04_Infraestructure
 ```
@@ -78,15 +83,19 @@ Update-Database -Project 04_Infraestructure -StartupProject 04_Infraestructure
 1. Clone the repository
 2. Update the connection string
 3. Run Entity Framework migrations:
+
 ```bash
 Update-Database -Project 04_Infraestructure -StartupProject 04_Infraestructure
 ```
+
 4. Run the application:
+
 ```bash
 dotnet run --project 01_WebApi
 ```
 
 The API will be available at:
+
 - HTTP: http://localhost:5181
 - HTTPS: https://localhost:7251
 
@@ -95,6 +104,7 @@ Swagger documentation will be available at `/swagger`
 ## API Endpoints
 
 ### Contacts
+
 - GET `/api/v1/contacts` - Get all contacts
 - GET `/api/v1/contacts/{id}` - Get contact by ID
 - POST `/api/v1/contacts` - Create new contact
@@ -104,21 +114,21 @@ Swagger documentation will be available at `/swagger`
 ### Input Validation
 
 Contact creation/update requires:
+
 - Name: 1-100 characters
 - Phone: Valid format (XXXX-XXXX or XXXXX-XXXX)
 - Email: Valid email format
 - DddId: Valid Brazilian DDD code (11-99)
 
-
-
 ## Error Handling
 
 The API uses a standardized error response format:
+
 ```json
 {
-    "success": false,
-    "message": "Error message",
-    "data": null
+  "success": false,
+  "message": "Error message",
+  "data": null
 }
 ```
 
@@ -133,3 +143,19 @@ dotnet test
 ## License
 
 This project is licensed under the MIT License.
+
+### Docker
+
+#### Build the image
+
+```bash
+docker build -t contact-management-api .
+```
+
+#### Run the container on local machine
+
+```bash
+docker network create contact-api-network
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=senha123" -p 1433:1433 --network contact-api-network --name sqlserver -d mcr.microsoft.com/mssql/server:latest
+docker run -d -p 8080:8080 -e DB_SERVER=sqlserver,1433 -e DB_NAME=Fase1TechChallenge -e DB_USER=sa -e DB_PASSWORD=senha123 --network contact-api-network contact-management-api
+```
