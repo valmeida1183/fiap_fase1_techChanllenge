@@ -1,0 +1,35 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Development
+**/bin/
+**/obj/
+**/node_modules/
+**/.vs/
+**/.vscode/
+**/TestResults/
+
+# Environment files
+**/*.env
+**/*.env.*
+**/appsettings.*.json
+!**/appsettings.json
+
+# Docker
+.docker/
+docker-compose*.yml
+docker-compose*.yaml
+!docker-compose.yml
+
+# Documentation
+*.md
+LICENSE
+
+# Misc
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db

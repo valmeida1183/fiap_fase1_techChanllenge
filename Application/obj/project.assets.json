@@ -3052,19 +3052,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vinicius\\.nuget\\packages\\": {}
+    "C:\\Users\\Victo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\02_Application.csproj",
+      "projectUniqueName": "C:\\Users\\Victo\\Source\\Repos\\fiap_fase1_techChanllenge\\Application\\02_Application.csproj",
       "projectName": "02_Application",
-      "projectPath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\02_Application.csproj",
-      "packagesPath": "C:\\Users\\Vinicius\\.nuget\\packages\\",
-      "outputPath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\Application\\obj\\",
+      "projectPath": "C:\\Users\\Victo\\Source\\Repos\\fiap_fase1_techChanllenge\\Application\\02_Application.csproj",
+      "packagesPath": "C:\\Users\\Victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Victo\\Source\\Repos\\fiap_fase1_techChanllenge\\Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Vinicius\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3072,15 +3077,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Infraestructure.csproj": {
-              "projectPath": "C:\\TI\\Pos Graduacao\\FIAP\\FASE 1\\Tech Challange\\Fase1TechChallenge\\04_Infraestructure\\04_Infraestructure.csproj"
+            "C:\\Users\\Victo\\Source\\Repos\\fiap_fase1_techChanllenge\\04_Infraestructure\\04_Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\Victo\\Source\\Repos\\fiap_fase1_techChanllenge\\04_Infraestructure\\04_Infraestructure.csproj"
             }
           }
         }
@@ -3094,7 +3098,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -3115,7 +3120,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

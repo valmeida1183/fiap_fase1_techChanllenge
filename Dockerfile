@@ -22,11 +22,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 
-# Set environment variables
-ENV ASPNETCORE_URLS=http://+:80
-ENV ASPNETCORE_ENVIRONMENT=Production
-
-# Expose port 80
-EXPOSE 80
+# Expose port 8080
+EXPOSE 8080
 
 ENTRYPOINT ["dotnet", "01_WebApi.dll"]
