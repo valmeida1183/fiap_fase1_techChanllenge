@@ -30,6 +30,7 @@ namespace IntegrationTest.Service
 
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task GetAllByDddAsync_ValidDddId_ReturnsContacts()
         {
             // Act
@@ -43,6 +44,7 @@ namespace IntegrationTest.Service
         }
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task GetAllByDddAsync_InvalidDddId_ThrowsException()
         {
             // Act & Assert

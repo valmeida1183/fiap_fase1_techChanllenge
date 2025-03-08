@@ -28,6 +28,7 @@ namespace IntegrationTest.Service
         }
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task GetAllAsync_ReturnsAllDirectDistanceDialing()
         {
             // Act
@@ -42,6 +43,7 @@ namespace IntegrationTest.Service
         }
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task GetByIdAsync_ExistingId_ReturnsDirectDistanceDialing()
         {
             //Arrange
@@ -56,6 +58,7 @@ namespace IntegrationTest.Service
         }
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task GetByIdAsync_NonExistingId_ReturnsNull()
         {
             // Arrange
@@ -69,6 +72,7 @@ namespace IntegrationTest.Service
         }
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task CreateAsync_ValidEntity_CallsRepositoryCreate()
         {
             // Arrange
@@ -84,6 +88,7 @@ namespace IntegrationTest.Service
         }
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task EditAsync_ValidEntity_CallsRepositoryEdit()
         {
             // Arrange
@@ -102,6 +107,7 @@ namespace IntegrationTest.Service
         }
 
         [Fact]
+        [Trait("Category", "Integration")]
         public async Task DeleteAsync_ValidEntity_CallsRepositoryDelete()
         {
             // Arrange
