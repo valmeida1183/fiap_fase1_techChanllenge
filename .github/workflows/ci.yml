@@ -3,10 +3,10 @@ name: CI Build and Tests
 on:
   push:
     branches:
-      - main
+      - integration-tests
   pull_request:
     branches:
-      - main
+      - integration-tests
 
 jobs:
   build-and-test:
