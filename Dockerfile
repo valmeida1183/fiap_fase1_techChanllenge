@@ -17,12 +17,26 @@ COPY . .
 # Build and publish
 RUN dotnet publish "01_WebApi/01_WebApi.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
+# Install EF Core tools
+RUN dotnet tool install --global dotnet-ef --version 8.0.11
+
 # Runtime stage
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
+COPY --from=build /root/.dotnet/tools /root/.dotnet/tools
+ENV PATH="$PATH:/root/.dotnet/tools"
+
+# Copy source code for migrations
+COPY ["04_Infraestructure", "/src/04_Infraestructure"]
+COPY ["03_Core", "/src/03_Core"]
+COPY ["01_WebApi/appsettings.json", "/src/01_WebApi/appsettings.json"]
+
+# Create entrypoint script
+COPY entrypoint.sh /app/entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
 
 # Expose port 8080
 EXPOSE 8080
 
-ENTRYPOINT ["dotnet", "01_WebApi.dll"]
+ENTRYPOINT ["/app/entrypoint.sh"]
