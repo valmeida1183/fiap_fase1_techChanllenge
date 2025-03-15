@@ -32,11 +32,25 @@ COPY ["04_Infraestructure", "/src/04_Infraestructure"]
 COPY ["03_Core", "/src/03_Core"]
 COPY ["01_WebApi/appsettings.json", "/src/01_WebApi/appsettings.json"]
 
+# Install Zabbix Agent
+RUN apt-get update && apt-get install -y wget gnupg2 && \
+    wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian12_all.deb && \
+    dpkg -i zabbix-release_6.4-1+debian12_all.deb && \
+    apt-get update && \
+    apt-get install -y zabbix-agent && \
+    rm -rf /var/lib/apt/lists/*
+
+# Configure Zabbix Agent
+COPY zabbix_agentd.conf /etc/zabbix/zabbix_agentd.conf
+
 # Create entrypoint script
 COPY entrypoint.sh /app/entrypoint.sh
 RUN chmod +x /app/entrypoint.sh
 
 # Expose port 8080
 EXPOSE 8080
+
+# Expose Zabbix agent port
+EXPOSE 10051
 
 ENTRYPOINT ["/app/entrypoint.sh"]

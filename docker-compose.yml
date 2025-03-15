@@ -1,8 +1,8 @@
 version: "3.8"
 networks:
-  #network-zabbix:
-  #  external: true
-  #  name: network-zabbix
+  network-zabbix:
+    external: true
+    name: network-zabbix
   app-network:
     name: app-network
     driver: bridge
@@ -17,13 +17,14 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "5181:8080"
+      - "5182:8080"
+      - "10055:10051"
     environment:
       - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT:-Development}
       - ConnectionStrings__DefaultConnection=${DB_CONNECTION_STRING:-Server=database,1433;Database=Fase1TechChallenge;User Id=sa;Password=YourStrong@Passw0rd;TrustServerCertificate=True;}
     networks:
       - app-network
-    #  - network-zabbix
+      - network-zabbix
   database:
     image: mcr.microsoft.com/mssql/server:2022-latest
     ports:
@@ -33,7 +34,7 @@ services:
       - SA_PASSWORD=YourStrong@Passw0rd
     networks:
       - app-network
-      #  - network-zabbix
+      - network-zabbix
     healthcheck:
       test:
         [
